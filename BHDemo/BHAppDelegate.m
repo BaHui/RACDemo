@@ -7,7 +7,8 @@
 //
 
 #import "BHAppDelegate.h"
-#import "BHExampleViewController.h"
+#import "BHTraverseViewController.h"
+#import "BHDelegaterViewController.h"
 
 @interface BHAppDelegate ()
 
@@ -17,7 +18,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
   self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-  self.window.rootViewController = [BHExampleViewController create];
+  self.window.rootViewController = [BHDelegaterViewController create];
   [self.window makeKeyAndVisible];
 
   return YES;

@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6F5A55512158D9770078916C /* BHExampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F5A55502158D9770078916C /* BHExampleViewController.m */; };
+		6F5A55512158D9770078916C /* BHTraverseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F5A55502158D9770078916C /* BHTraverseViewController.m */; };
+		6F847A6122C89561008A1E35 /* BHDelegaterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F847A5F22C89561008A1E35 /* BHDelegaterViewController.m */; };
+		6F847A6622C89686008A1E35 /* BHContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F847A6522C89686008A1E35 /* BHContentView.m */; };
 		6FE8F9B52150E8D400107C93 /* BHAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FE8F9B42150E8D400107C93 /* BHAppDelegate.m */; };
 		6FE8F9BD2150E8D500107C93 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6FE8F9BC2150E8D500107C93 /* Assets.xcassets */; };
 		6FE8F9C32150E8D500107C93 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FE8F9C22150E8D500107C93 /* main.m */; };
@@ -18,8 +20,12 @@
 
 /* Begin PBXFileReference section */
 		1152DBCC2A74719403CA6FF1 /* Pods-BHDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BHDemo.release.xcconfig"; path = "Target Support Files/Pods-BHDemo/Pods-BHDemo.release.xcconfig"; sourceTree = "<group>"; };
-		6F5A554F2158D9770078916C /* BHExampleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BHExampleViewController.h; path = Classes/BHExampleViewController.h; sourceTree = "<group>"; };
-		6F5A55502158D9770078916C /* BHExampleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BHExampleViewController.m; path = Classes/BHExampleViewController.m; sourceTree = "<group>"; };
+		6F5A554F2158D9770078916C /* BHTraverseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BHTraverseViewController.h; path = Classes/BHTraverseViewController.h; sourceTree = "<group>"; };
+		6F5A55502158D9770078916C /* BHTraverseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BHTraverseViewController.m; path = Classes/BHTraverseViewController.m; sourceTree = "<group>"; };
+		6F847A5E22C89561008A1E35 /* BHDelegaterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BHDelegaterViewController.h; path = Classes/BHDelegaterViewController.h; sourceTree = "<group>"; };
+		6F847A5F22C89561008A1E35 /* BHDelegaterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = BHDelegaterViewController.m; path = Classes/BHDelegaterViewController.m; sourceTree = "<group>"; };
+		6F847A6422C89686008A1E35 /* BHContentView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BHContentView.h; path = Classes/BHContentView.h; sourceTree = "<group>"; };
+		6F847A6522C89686008A1E35 /* BHContentView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = BHContentView.m; path = Classes/BHContentView.m; sourceTree = "<group>"; };
 		6FE8F9B02150E8D400107C93 /* BHDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BHDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FE8F9B32150E8D400107C93 /* BHAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BHAppDelegate.h; sourceTree = "<group>"; };
 		6FE8F9B42150E8D400107C93 /* BHAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BHAppDelegate.m; sourceTree = "<group>"; };
@@ -60,6 +66,34 @@
 				FE88D7427B05EB3A6C3995F5 /* libPods-BHDemo.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6F847A6322C89651008A1E35 /* Content View */ = {
+			isa = PBXGroup;
+			children = (
+				6F847A6422C89686008A1E35 /* BHContentView.h */,
+				6F847A6522C89686008A1E35 /* BHContentView.m */,
+			);
+			name = "Content View";
+			sourceTree = "<group>";
+		};
+		6FE8890522C8900D002E9346 /* Traverse  */ = {
+			isa = PBXGroup;
+			children = (
+				6F5A554F2158D9770078916C /* BHTraverseViewController.h */,
+				6F5A55502158D9770078916C /* BHTraverseViewController.m */,
+			);
+			name = "Traverse ";
+			sourceTree = "<group>";
+		};
+		6FE8890622C89027002E9346 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				6F847A5E22C89561008A1E35 /* BHDelegaterViewController.h */,
+				6F847A5F22C89561008A1E35 /* BHDelegaterViewController.m */,
+				6F847A6322C89651008A1E35 /* Content View */,
+			);
+			name = Delegate;
 			sourceTree = "<group>";
 		};
 		6FE8F9A72150E8D300107C93 = {
@@ -115,8 +149,8 @@
 		6FE8F9CB2150EAF300107C93 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				6F5A554F2158D9770078916C /* BHExampleViewController.h */,
-				6F5A55502158D9770078916C /* BHExampleViewController.m */,
+				6FE8890522C8900D002E9346 /* Traverse  */,
+				6FE8890622C89027002E9346 /* Delegate */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -217,9 +251,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6F5A55512158D9770078916C /* BHExampleViewController.m in Sources */,
+				6F847A6122C89561008A1E35 /* BHDelegaterViewController.m in Sources */,
+				6F5A55512158D9770078916C /* BHTraverseViewController.m in Sources */,
 				6FE8F9C32150E8D500107C93 /* main.m in Sources */,
 				6FE8F9B52150E8D400107C93 /* BHAppDelegate.m in Sources */,
+				6F847A6622C89686008A1E35 /* BHContentView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

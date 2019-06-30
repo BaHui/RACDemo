@@ -1,5 +1,5 @@
 //
-//  BHExampleViewController.h
+//  BHTraverseViewController.h
 //  BHDemo
 //
 //  Created by QiaoBaHui on 2018/9/18.
@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface BHExampleViewController : UIViewController
+@interface BHTraverseViewController : UIViewController
 
 + (instancetype)create;
 

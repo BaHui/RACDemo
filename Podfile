@@ -2,7 +2,8 @@ platform :ios, '10.0'
 inhibit_all_warnings!
 
 target 'BHDemo' do
-	pod 'ReactiveObjC', '~> 3.1.0'
+  pod 'Masonry'
+	pod 'ReactiveObjC'
 end
 
 # DO: Fix pods deployment target version warning !!!

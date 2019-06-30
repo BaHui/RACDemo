@@ -1,26 +1,21 @@
 //
-//  BHExampleViewController.m
+//  BHTraverseViewController.m
 //  BHDemo
 //
 //  Created by QiaoBaHui on 2018/9/18.
 //  Copyright © 2018年 QiaoBaHui. All rights reserved.
 //
 
-#import "BHExampleViewController.h"
+#import "BHTraverseViewController.h"
 #import <ReactiveObjC/ReactiveObjC.h>
-
-@interface BHExampleViewController ()
-
-@end
 
 static NSString *const DEMO_VIEWS_STORYBOARD_NAME = @"DemoViews";
 
-
-@implementation BHExampleViewController
+@implementation BHTraverseViewController
 
 + (instancetype)create {
   UIStoryboard *demoViewsStoryboard = [UIStoryboard storyboardWithName:DEMO_VIEWS_STORYBOARD_NAME bundle:nil];
-  return [demoViewsStoryboard instantiateViewControllerWithIdentifier:NSStringFromClass([BHExampleViewController class])];
+  return [demoViewsStoryboard instantiateViewControllerWithIdentifier:NSStringFromClass([BHTraverseViewController class])];
 }
 
 #pragma mark - ViewController LifeCycle
